@@ -1,4 +1,4 @@
-package net.pi.components.service_discovery_client;
+package net.pi.components.mongo.crud;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

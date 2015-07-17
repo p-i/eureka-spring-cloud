@@ -1,4 +1,4 @@
-package net.pi.components.service_discovery_client;
+package net.pi.components.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

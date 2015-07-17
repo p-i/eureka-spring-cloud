@@ -1,9 +1,9 @@
 server:
-  port: ${PORT:8721}
+  port: ${PORT:8722}
 
 spring:
   application:
-    name: first-client
+    name: another-client
 
 eureka:
   client:

@@ -1,6 +1,9 @@
+server:
+  port: ${PORT:8721}
+
 spring:
   application:
-    name: fds
+    name: first-client
 
 eureka:
   client:
