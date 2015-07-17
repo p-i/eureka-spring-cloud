@@ -22,6 +22,13 @@
 	</properties>
 
 	<dependencies>
+
+        <dependency>
+            <groupId>net.pi.services</groupId>
+            <artifactId>pi-service-commons</artifactId>
+            <version>1.0.7</version>
+        </dependency>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>

@@ -1,5 +1,6 @@
-package net.pi.components.mongo.crud;
+package net.pi.components.gateway;
 
+import net.pi.components.gateway.ServiceDiscoveryClientApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
