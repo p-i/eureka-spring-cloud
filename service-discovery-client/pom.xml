@@ -26,7 +26,7 @@
         <dependency>
             <groupId>net.pi.services</groupId>
             <artifactId>pi-service-commons</artifactId>
-            <version>1.0.7</version>
+            <version>1.0.8</version>
         </dependency>
 
 		<dependency>
@@ -44,6 +44,39 @@
             <artifactId>spring-boot-autoconfigure</artifactId>
             <version>1.2.1.RELEASE</version>
         </dependency>
+
+        <!--<dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-consul-config</artifactId>
+            <version>1.0.0.M1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-consul-discovery</artifactId>
+            <version>1.0.0.M1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-consul-bus</artifactId>
+            <version>1.0.0.M1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-consul-ui</artifactId>
+            <version>1.0.0.M1</version>
+        </dependency>-->
+
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>http://repo.spring.io/milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
 </project>
