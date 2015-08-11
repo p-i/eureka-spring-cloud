@@ -13,6 +13,7 @@
         <module>service-discovery-client</module>
         <module>service-discovery-server</module>
         <module>service-discovery-another-client</module>
+        <module>config-server</module>
     </modules>
 
     <parent>

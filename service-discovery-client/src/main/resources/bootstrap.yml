@@ -4,6 +4,12 @@ server:
 spring:
   application:
     name: first-client
+  profiles:
+    active: uat
+  cloud:
+    config:
+      discovery:
+        enabled: true
 
 eureka:
   client:

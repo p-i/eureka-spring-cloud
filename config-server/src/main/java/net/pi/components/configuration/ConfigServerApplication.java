@@ -1,17 +1,20 @@
-package net.pi.components.crud;
+package net.pi.components.configuration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
+/**
+ * Created by oleg on 10/08/15.
+ */
 @SpringBootApplication
 @EnableEurekaClient
-/*@EnableFeignClients*/
-public class ServiceDiscoveryAnotherClientApplication {
+@EnableConfigServer
+public class ConfigServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceDiscoveryAnotherClientApplication.class, args);
+        SpringApplication.run(ConfigServerApplication.class, args);
     }
 
 }
